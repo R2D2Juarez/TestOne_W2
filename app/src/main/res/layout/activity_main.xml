@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.testone_w2.MainActivity">
+
+    <EditText
+        android:id="@+id/ed_searchRecord"
+        android:hint="Update/Delete by ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_saveScreen"
+        android:onClick="openSaveScreen"
+        android:text="@string/lbl_btn_saveScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_readAllScreen"
+        android:onClick="readAllNotesScreen"
+        android:text="@string/lbl_btn_readAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_updateScreen"
+        android:onClick="openUpdateScreen"
+        android:text="@string/lbl_btn_updateScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_deleteScreen"
+        android:onClick="openDeleteScreen"
+        android:text="@string/lbl_btn_deleteScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

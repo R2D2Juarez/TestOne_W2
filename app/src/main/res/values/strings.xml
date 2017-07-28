@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestOne_W2</string>
+    <string name="lbl_btn_saveScreen">SAVE NOTE</string>
+    <string name="lbl_btn_readAll">READ ALL NOTES</string>
+    <string name="lbl_btn_updateScreen">UPDATE</string>
+    <string name="lbl_btn_deleteScreen">DELETE</string>
+    <string name="lbl_btn_saveNote">SAVE NOTE</string>
+    <string name="lbl_btn_update_note">UPDATE NOTE</string>
+    <string name="lbl_btn_read_all_notes">READ ALL NOTES</string>
+    <string name="lbl_btn_delete_note">DELETE NOTE</string>
+</resources>
